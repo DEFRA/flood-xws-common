@@ -10,7 +10,7 @@
  * @returns {string} Returns string with matching tokens substituted
  */
 const interpolate = function (string, params) {
-  return string.replace(/${(\w+)}/g, (token, key) => params[key] || token)
+  return string.replace(/\${(\w+)}/g, (token, key) => params[key] || token)
 }
 
 module.exports = interpolate
