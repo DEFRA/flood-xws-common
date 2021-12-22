@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/NeXt-Warning-System/common#readme",
   "dependencies": {
+    "dayjs": "1.10.7",
     "google-libphonenumber": "3.2.15",
     "snarkdown": "2.0.0",
     "xmlbuilder2": "3.0.2"
