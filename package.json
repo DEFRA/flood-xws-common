@@ -18,6 +18,7 @@
   "homepage": "https://github.com/NeXt-Warning-System/common#readme",
   "dependencies": {
     "google-libphonenumber": "3.2.15",
-    "snarkdown": "2.0.0"
+    "snarkdown": "2.0.0",
+    "xmlbuilder2": "3.0.2"
   }
 }
