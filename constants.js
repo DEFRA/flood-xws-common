@@ -6,7 +6,7 @@ const publisher = {
 
 const service = {
   id: 'ecbb79cc-47f5-4bb0-ad0c-ca803b671cfb',
-  name: 'XWS',
+  name: 'Get flood warnings',
   description: 'Flood warning service'
 }
 
