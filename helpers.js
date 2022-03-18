@@ -39,8 +39,21 @@ function sortByMultiple () {
   }
 }
 
+function removeKeys (obj, keys) {
+  const result = {}
+
+  for (const key in obj) {
+    if (!keys.includes(key)) {
+      result[key] = obj[key]
+    }
+  }
+
+  return result
+}
+
 module.exports = {
   groupBy,
   sortBy,
-  sortByMultiple
+  sortByMultiple,
+  removeKeys
 }
