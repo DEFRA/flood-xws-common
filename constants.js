@@ -1,15 +1,3 @@
-const publisher = {
-  id: '92895119-cb53-4012-8eb9-173a22f2db7a',
-  name: 'Environment Agency',
-  url: 'www.gov.uk/environment-agency'
-}
-
-const service = {
-  id: 'ecbb79cc-47f5-4bb0-ad0c-ca803b671cfb',
-  name: 'Get flood warnings',
-  description: 'Flood warning service'
-}
-
 const MAX_MESSAGE_HEADLINE_LENGTH = 90
 const MAX_MESSAGE_BODY_LENGTH = 990
 
@@ -33,8 +21,6 @@ const EVENTS = {
 }
 
 module.exports = {
-  publisher,
-  service,
   EVENTS,
   ALERT_ISSUED,
   ALERT_PUBLISHED,
